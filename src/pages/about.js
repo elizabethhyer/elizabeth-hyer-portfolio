@@ -1,9 +1,10 @@
 import React from "react"
+import Layout from "../components/layout"
 import { Link } from "gatsby"
 
 const AboutPage = () => {
   return (
-    <div>
+    <Layout>
       <h1>About</h1>
       <p>
         Elizabeth is a full stack developer living in Atlanta, Georgia. While
@@ -44,7 +45,7 @@ const AboutPage = () => {
       <br />
       Did any of this make you want to contact Elizabeth? Find a way to reach
       her <Link to="/contact">here!</Link>
-    </div>
+    </Layout>
   )
 }
 
