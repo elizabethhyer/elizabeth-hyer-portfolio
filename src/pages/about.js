@@ -6,22 +6,17 @@ const AboutPage = () => {
   return (
     <Layout>
       <h1>About</h1>
+      <p>Elizabeth is a full stack developer living in Atlanta, Georgia.</p>
       <p>
-        Elizabeth is a full stack developer living in Atlanta, Georgia. While
+        While Elizabeth COULD make her own website, she decided not to in this
+        case and left that task up to her team of code elves.
       </p>
-      <br />
-      <p>
-        Elizabeth COULD make her own website, she decided not to in this case
-        and left that task up to her team of code elves.
-      </p>
-      <br />
       <p>
         We are frustrated with Elizabeth because she NEVER leaves us with a good
         bio! And we are not good at writing them either, so instead, we're going
         to just leave a list of facts about Elizabeth. Read on if you're
         interested.
       </p>
-      <br />
       <br />
       <h4>Likes</h4>
       <ul>
@@ -34,7 +29,6 @@ const AboutPage = () => {
         <li>Eating good food</li>
         <li>Specifically brownies</li>
       </ul>
-      <br />
       <h4>Dislikes</h4>
       <ul>
         <li>Cooking</li>

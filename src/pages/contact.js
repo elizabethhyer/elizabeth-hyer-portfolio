@@ -20,7 +20,7 @@ const ContactPage = () => {
           href="https://www.instagram.com/hyerhandmade/?hl=en"
           target="__blank"
         >
-          Instagram
+          {` Instagram`}
         </a>
         , where I sometimes post politically charged memes and photos of the
         things I make.
