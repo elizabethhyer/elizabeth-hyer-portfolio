@@ -7,10 +7,11 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: "Elizabeth Hyer Portfolio and Blog",
+    title: "Elizabeth Hyer",
     author: "Elizabeth Hyer",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
       options: {
