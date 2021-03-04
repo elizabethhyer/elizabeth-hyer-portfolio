@@ -1,10 +1,10 @@
 import React from "react"
-import Layout from "../components/layout/layout"
+// import Layout from "../components/layout/layout"
 import Head from "../components/head"
 
 const ContactPage = () => {
   return (
-    <Layout>
+    <div>
       <Head title="Contact" />
       <h1>Contact</h1>
       <p>You can always reach me via email at hyerhandmade@gmail.com</p>
@@ -28,7 +28,7 @@ const ContactPage = () => {
         things I make.
       </p>
       <br />
-    </Layout>
+    </div>
   )
 }
 

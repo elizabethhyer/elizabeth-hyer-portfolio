@@ -1,11 +1,11 @@
 import React from "react"
-import Layout from "../components/layout/layout"
+// import Layout from "../components/layout/layout"
 import { Link } from "gatsby"
 import Head from "../components/head"
 
 const AboutPage = () => {
   return (
-    <Layout>
+    <div>
       <Head title="About" />
       <h1>About</h1>
       <p>Elizabeth is a full stack developer living in Atlanta, Georgia.</p>
@@ -41,7 +41,7 @@ const AboutPage = () => {
       <br />
       Did any of this make you want to contact Elizabeth? Find a way to reach
       her <Link to="/contact">here!</Link>
-    </Layout>
+    </div>
   )
 }
 
