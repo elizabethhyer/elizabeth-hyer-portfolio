@@ -14,11 +14,9 @@ const Footer = () => {
   `)
 
   return (
-    <footer className={FooterStyles.footer}>
-      <p>
-        Created with 💔 by {data.site.siteMetadata.author} in Atlanta, GA. ©2021
-      </p>
-    </footer>
+    <p className={FooterStyles.container}>
+      Created with 💔 by {data.site.siteMetadata.author} in Atlanta, GA. ©2021
+    </p>
   )
 }
 

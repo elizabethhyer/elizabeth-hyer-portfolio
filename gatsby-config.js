@@ -13,6 +13,16 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Inconsolata\:300,400,500,700`,
+          `source sans pro\:300,400,500,700`,
+        ],
+        display: "swap",
+      },
+    },
+    {
       resolve: "gatsby-source-contentful",
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,

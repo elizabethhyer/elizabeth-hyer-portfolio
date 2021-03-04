@@ -23,9 +23,9 @@ const BlogPage = function () {
   return (
     <Layout>
       <Head title="Blog" />
-      <ol className={blogStyles.posts}>
+      <ol>
         {data.allContentfulBlogPost.edges.map(edge => (
-          <li className={blogStyles.post}>
+          <li className={blogStyles.blogPost}>
             <Link to={`/blog/${edge.node.slug}`}>
               <h2>{edge.node.title}</h2>
               <p>{edge.node.publishedDate}</p>

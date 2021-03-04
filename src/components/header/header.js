@@ -14,50 +14,23 @@ const Header = () => {
   `)
 
   return (
-    <header className={headerStyles.header}>
-      <h1>
-        <Link className={headerStyles.title} to="/">
-          {data.site.siteMetadata.author}
-        </Link>
+    <header className={headerStyles.container}>
+      <h1 className={headerStyles.title}>
+        <Link to="/">{data.site.siteMetadata.author}</Link>
       </h1>
       <nav>
-        {" "}
-        <ul className={headerStyles.navList}>
+        <ul className={headerStyles.links}>
           <li>
-            <Link
-              className={headerStyles.navItem}
-              activeClassName={headerStyles.activeNavItem}
-              to="/"
-            >
-              Home
-            </Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <Link
-              className={headerStyles.navItem}
-              activeClassName={headerStyles.activeNavItem}
-              to="/about"
-            >
-              About
-            </Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link
-              className={headerStyles.navItem}
-              activeClassName={headerStyles.activeNavItem}
-              to="/contact"
-            >
-              Contact
-            </Link>
+            <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link
-              className={headerStyles.navItem}
-              activeClassName={headerStyles.activeNavItem}
-              to="/blog"
-            >
-              Blog
-            </Link>
+            <Link to="/blog">Blog</Link>
           </li>
         </ul>
       </nav>
