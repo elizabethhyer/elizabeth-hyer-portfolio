@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  border-radius: 4px;
+  overflow: hidden;
+  width: 60rem;
+
+  &:hover {
+    filter: blur(4px);
+  }
+}

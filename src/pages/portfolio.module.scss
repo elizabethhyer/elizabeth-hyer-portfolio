@@ -10,6 +10,6 @@
   border-radius: 4px;
 
   &:hover {
-    opacity: 0.6;
+    filter: blur(4px);
   }
 }
