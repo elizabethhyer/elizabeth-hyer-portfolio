@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout/layout"
 import { Link } from "gatsby"
 import Head from "../components/head"
+import aboutStyles from "./about.module.scss"
 
 const AboutPage = () => {
   return (
@@ -39,7 +40,10 @@ const AboutPage = () => {
       </ul>
       <br />
       Did any of this make you want to contact Elizabeth? Find a way to reach
-      her <Link to="/contact">here!</Link>
+      her{" "}
+      <Link to="/contact" className={aboutStyles.link}>
+        here!
+      </Link>
     </Layout>
   )
 }
