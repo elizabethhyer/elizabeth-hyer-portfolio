@@ -1,8 +1,12 @@
 .layout-container {
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .content-container {
   padding: 4rem;
   background-color: rgb(245, 245, 245);
+  min-height: 53vh;
 }
