@@ -1,4 +1,6 @@
 .link {
+  transition: all 0.2s;
+
   &:hover {
     color: #fff;
     font-size: 1.8rem;

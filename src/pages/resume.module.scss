@@ -8,6 +8,7 @@
   border-radius: 4px;
   overflow: hidden;
   width: 60rem;
+  transition: all 0.2s;
 
   &:hover {
     filter: blur(4px);

@@ -8,6 +8,7 @@
 .img {
   width: 30rem;
   border-radius: 4px;
+  transition: all 0.2s;
 
   &:hover {
     filter: blur(4px);
