@@ -6,8 +6,14 @@ const ContactPage = () => {
   return (
     <Layout>
       <Head title="Contact" />
-      <h1>Contact</h1>
       <p>You can always reach me via email at hyerhandmade@gmail.com</p>
+      <br />
+      <p>
+        Please check out even more of my work on{" "}
+        <a href="https://github.com/elizabethhyer" target="__blank">
+          Github
+        </a>
+      </p>
       <br />
       <p>
         You can also connect with me on{" "}

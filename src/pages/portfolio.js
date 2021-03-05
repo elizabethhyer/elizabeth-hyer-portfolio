@@ -6,6 +6,7 @@ import crwn from "../imgs/crwn-clothing.png"
 import forkify from "../imgs/forkify.png"
 import natours from "../imgs/natours.png"
 import trillo from "../imgs/trillo.png"
+import slackClone from "../imgs/slack-clone.png"
 
 const PortfolioPage = () => {
   return (
@@ -37,6 +38,13 @@ const PortfolioPage = () => {
           <img
             src={trillo}
             alt="Sample hotel booking website built with HTML and CSS"
+            className={portfolioStyles.img}
+          />
+        </a>
+        <a href="https://slack-clone-32491.web.app/" target="__blank">
+          <img
+            src={slackClone}
+            alt="Simplified Slack clone"
             className={portfolioStyles.img}
           />
         </a>

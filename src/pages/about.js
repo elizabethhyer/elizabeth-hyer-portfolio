@@ -7,7 +7,6 @@ const AboutPage = () => {
   return (
     <Layout>
       <Head title="About" />
-      <h1>About</h1>
       <p>Elizabeth is a full stack developer living in Atlanta, Georgia.</p>
       <p>
         While Elizabeth COULD make her own website, she decided not to in this
