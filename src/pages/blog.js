@@ -23,6 +23,7 @@ const BlogPage = function () {
   return (
     <Layout>
       <Head title="Blog" />
+      <div className={blogStyles.container}>
       <ol>
         {data.allContentfulBlogPost.edges.map(edge => (
           <li className={blogStyles.blogPost}>
@@ -33,6 +34,7 @@ const BlogPage = function () {
           </li>
         ))}
       </ol>
+      </div>
     </Layout>
   )
 }

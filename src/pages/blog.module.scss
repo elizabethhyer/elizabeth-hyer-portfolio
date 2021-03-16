@@ -1,3 +1,8 @@
+.container {
+  height: 45vh;
+  overflow-y: scroll;
+}
+
 .blog-post {
   padding: 2rem 3rem;
   list-style-type: none;
