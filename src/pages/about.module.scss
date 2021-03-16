@@ -8,3 +8,26 @@
     padding: 0.3rem;
   }
 }
+
+.likes-container {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.likes,
+.dislikes {
+  background-color: rgb(212, 211, 211);
+  padding: 1rem 10rem;
+
+  li {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    padding: 1rem;
+  }
+}

@@ -20,24 +20,30 @@ const AboutPage = () => {
         interested.
       </p>
       <br />
-      <h4>Likes</h4>
-      <ul>
-        <li>Sewing</li>
-        <li>Painting</li>
-        <li>Knitting</li>
-        <li>Shoemaking</li>
-        <li>Rowing</li>
-        <li>Furry critters</li>
-        <li>Eating good food</li>
-        <li>Specifically brownies</li>
-      </ul>
-      <h4>Dislikes</h4>
-      <ul>
-        <li>Cooking</li>
-        <li>Running</li>
-        <li>Untoasted bread</li>
-        <li>Bugs!</li>
-      </ul>
+      <div className={aboutStyles.likesContainer}>
+        <div className={aboutStyles.likes}>
+          <h4>Likes</h4>
+          <ul>
+            <li>Sewing</li>
+            <li>Painting</li>
+            <li>Knitting</li>
+            <li>Shoemaking</li>
+            <li>Rowing</li>
+            <li>Furry critters</li>
+            <li>Eating good food</li>
+            <li>Specifically brownies</li>
+          </ul>
+        </div>
+        <div className={aboutStyles.dislikes}>
+          <h4>Dislikes</h4>
+          <ul>
+            <li>Cooking</li>
+            <li>Running</li>
+            <li>Untoasted bread</li>
+            <li>Bugs!</li>
+          </ul>
+        </div>
+      </div>
       <br />
       Did any of this make you want to contact Elizabeth? Find a way to reach
       her{" "}

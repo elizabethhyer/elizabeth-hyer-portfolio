@@ -1,0 +1,21 @@
+.container {
+  h1 {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 200;
+  }
+
+  & > * {
+    padding: 1.5rem;
+  }
+
+  p code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 1rem;
+    width: max-content;
+  }
+}

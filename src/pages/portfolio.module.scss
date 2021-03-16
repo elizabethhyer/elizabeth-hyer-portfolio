@@ -5,12 +5,42 @@
   grid-gap: 2rem;
 }
 
-.img {
+.link-container {
   width: 30rem;
+  position: relative;
+}
+
+.img {
+  display: block;
+  width: 100%;
   border-radius: 4px;
   transition: all 0.2s;
 
   &:hover {
-    filter: blur(4px);
+    filter: blur(3px);
+  }
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+
+  h1 {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-top: -17rem;
+  }
+
+  p {
+    font-weight: 600;
+    margin-top: 2rem;
+  }
+
+  &:hover {
+    visibility: visible;
   }
 }
